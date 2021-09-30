@@ -1,0 +1,38 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+Create a New Page
+{% endblock %}
+
+{% block body %}
+
+<form action="new_page" method="POST">
+    {% csrf_token %}
+    <div>
+        <div style="margin: 10px;">
+            <div class="visible">
+
+                Title:
+
+                <input type="text" name="title" autocomplete="off" placeholder="Title" style="margin-left: 10px;">
+            </div>
+        </div>
+        <div style="margin: 10px;">
+            <div class="visible">
+
+                Content:
+            </div>
+            <div style="margin-top: 10px;">
+
+                <textarea name="write" placeholder="Write Here" autocomplete="off"
+                    style="height: 580px; width: 1100px;"></textarea>
+            </div>
+
+            <input type="submit" name="Submit">
+
+
+        </div>
+    </div>
+</form>
+
+{% endblock %}
