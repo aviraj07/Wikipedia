@@ -30,8 +30,9 @@ Main files:
 * *manage.py* - It contains all the required files to run your webapp.
 * *encyclopeida/static* - It include the required styling css page to help user to have a good experience of the webapp.
 * *encyclopedia/templates* - These include all the html pages of the webapp from a basic layout file to each and every html page of the webapp.
-* *auctions/views.py* - It contains all the logic behind rendering the required pages upon request and acting as a mediator between databse and user.
-* *auctions/urls.py* - It has all the urls that a user can request to visit the pages of the webapp.
+* *encyclopeida/views.py* - It contains all the logic behind rendering the required pages upon request and acting as a mediator between databse and user.
+* *encyclopedia/urls.py* - It has all the urls that a user can request to visit the pages of the webapp.
+* *encyclopedia/entries* - It contains all the pages that you created in your webapp. 
 
 There are other supporting files as well.
 
